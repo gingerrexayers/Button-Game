@@ -14,10 +14,12 @@
 
 @implementation ViewController
 @synthesize Counter;
+@synthesize buttonCount;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    buttonCount = 0;
 }
 
 - (void)didReceiveMemoryWarning
@@ -27,6 +29,8 @@
 }
 
 - (IBAction)gameButton:(id)sender {
-    Counter.text = @"Hello";
+    buttonCount++;
+    NSString *strValue = [@(buttonCount) stringValue];
+    Counter.text = strValue;
 }
 @end

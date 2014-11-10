@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *Counter;
+@property int buttonCount;
 - (IBAction)gameButton:(id)sender;
 
 
