@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-
+@synthesize Counter;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)gameButton:(id)sender {
+    Counter.text = @"Hello";
+}
 @end
