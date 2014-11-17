@@ -12,14 +12,15 @@
 
 @end
 
+ProgressTracker *tracker;
+
 @implementation ViewController
 @synthesize Counter;
-@synthesize buttonCount;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    buttonCount = 0;
 }
 
 - (void)didReceiveMemoryWarning
@@ -29,8 +30,9 @@
 }
 
 - (IBAction)gameButton:(id)sender {
-    buttonCount++;
-    NSString *strValue = [@(buttonCount) stringValue];
+    [tracker countButtonPress];
+
+    NSString *strValue = [@([tracker getButtonPressedCount]) stringValue];
     Counter.text = strValue;
 }
 @end

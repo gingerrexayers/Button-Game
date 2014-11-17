@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842378C51A1A7A7300565943 /* ProgressTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 842378C41A1A7A7300565943 /* ProgressTracker.m */; };
 		84688E971A11383500FB9E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84688E961A11383500FB9E18 /* Foundation.framework */; };
 		84688E991A11383500FB9E18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84688E981A11383500FB9E18 /* CoreGraphics.framework */; };
 		84688E9B1A11383500FB9E18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84688E9A1A11383500FB9E18 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842378C31A1A7A7300565943 /* ProgressTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressTracker.h; sourceTree = "<group>"; };
+		842378C41A1A7A7300565943 /* ProgressTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressTracker.m; sourceTree = "<group>"; };
 		84688E931A11383500FB9E18 /* Button Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84688E961A11383500FB9E18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84688E981A11383500FB9E18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 		84688E9C1A11383500FB9E18 /* Button Game */ = {
 			isa = PBXGroup;
 			children = (
+				842378C31A1A7A7300565943 /* ProgressTracker.h */,
+				842378C41A1A7A7300565943 /* ProgressTracker.m */,
 				84688EA51A11383500FB9E18 /* AppDelegate.h */,
 				84688EA61A11383500FB9E18 /* AppDelegate.m */,
 				84688EA81A11383500FB9E18 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84688EAD1A11383500FB9E18 /* ViewController.m in Sources */,
+				842378C51A1A7A7300565943 /* ProgressTracker.m in Sources */,
 				84688EA71A11383500FB9E18 /* AppDelegate.m in Sources */,
 				84688EA31A11383500FB9E18 /* main.m in Sources */,
 			);
@@ -460,6 +466,7 @@
 				84688EC71A11383500FB9E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84688EC81A11383500FB9E18 /* Build configuration list for PBXNativeTarget "Button GameTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				84688ECA1A11383500FB9E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
