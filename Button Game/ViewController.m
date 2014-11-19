@@ -12,14 +12,16 @@
 
 @end
 
-ProgressTracker *tracker;
 
 @implementation ViewController
 @synthesize Counter;
+@synthesize tracker;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    tracker = [ProgressTracker new];
+    [tracker resetCounter];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

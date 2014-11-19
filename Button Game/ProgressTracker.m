@@ -11,7 +11,12 @@
 @implementation ProgressTracker
 @synthesize buttonPressedCount;
 
-int buttonPressedCount = 0;
+
+-(void)resetCounter
+{
+    buttonPressedCount = 0;
+}
+
 
 -(void)countButtonPress
 {

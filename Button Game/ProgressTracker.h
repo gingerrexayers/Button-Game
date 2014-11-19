@@ -11,5 +11,6 @@
 @interface ProgressTracker : NSObject
 @property int buttonPressedCount;
 -(void)countButtonPress;
+-(void)resetCounter;
 -(int)getButtonPressedCount;
 @end

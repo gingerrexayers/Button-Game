@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProgressTracker.h"
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *Counter;
 - (IBAction)gameButton:(id)sender;
+@property ProgressTracker *tracker;
 
 
 @end

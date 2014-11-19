@@ -22,6 +22,7 @@
 		84688EB81A11383500FB9E18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84688E9A1A11383500FB9E18 /* UIKit.framework */; };
 		84688EC01A11383500FB9E18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84688EBE1A11383500FB9E18 /* InfoPlist.strings */; };
 		84688EC21A11383500FB9E18 /* Button_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84688EC11A11383500FB9E18 /* Button_GameTests.m */; };
+		84AC51B81A1D20320009D4E3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC51B71A1D20320009D4E3 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		84688EBD1A11383500FB9E18 /* Button GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Button GameTests-Info.plist"; sourceTree = "<group>"; };
 		84688EBF1A11383500FB9E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84688EC11A11383500FB9E18 /* Button_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_GameTests.m; sourceTree = "<group>"; };
+		84AC51B61A1D20320009D4E3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		84AC51B71A1D20320009D4E3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				84688EA51A11383500FB9E18 /* AppDelegate.h */,
 				84688EA61A11383500FB9E18 /* AppDelegate.m */,
 				84688EA81A11383500FB9E18 /* Main.storyboard */,
+				84AC51B61A1D20320009D4E3 /* HomeViewController.h */,
+				84AC51B71A1D20320009D4E3 /* HomeViewController.m */,
 				84688EAB1A11383500FB9E18 /* ViewController.h */,
 				84688EAC1A11383500FB9E18 /* ViewController.m */,
 				84688EAE1A11383500FB9E18 /* Images.xcassets */,
@@ -257,6 +262,7 @@
 				84688EAD1A11383500FB9E18 /* ViewController.m in Sources */,
 				842378C51A1A7A7300565943 /* ProgressTracker.m in Sources */,
 				84688EA71A11383500FB9E18 /* AppDelegate.m in Sources */,
+				84AC51B81A1D20320009D4E3 /* HomeViewController.m in Sources */,
 				84688EA31A11383500FB9E18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
