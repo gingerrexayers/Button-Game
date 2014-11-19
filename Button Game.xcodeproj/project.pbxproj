@@ -23,6 +23,7 @@
 		84688EC01A11383500FB9E18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84688EBE1A11383500FB9E18 /* InfoPlist.strings */; };
 		84688EC21A11383500FB9E18 /* Button_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84688EC11A11383500FB9E18 /* Button_GameTests.m */; };
 		84AC51B81A1D20320009D4E3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC51B71A1D20320009D4E3 /* HomeViewController.m */; };
+		84AC51BA1A1D22AE0009D4E3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AC51B91A1D22AE0009D4E3 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		84688EC11A11383500FB9E18 /* Button_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_GameTests.m; sourceTree = "<group>"; };
 		84AC51B61A1D20320009D4E3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		84AC51B71A1D20320009D4E3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		84AC51B91A1D22AE0009D4E3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AC51BA1A1D22AE0009D4E3 /* CoreData.framework in Frameworks */,
 				84688E991A11383500FB9E18 /* CoreGraphics.framework in Frameworks */,
 				84688E9B1A11383500FB9E18 /* UIKit.framework in Frameworks */,
 				84688E971A11383500FB9E18 /* Foundation.framework in Frameworks */,
@@ -107,6 +110,7 @@
 		84688E951A11383500FB9E18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84AC51B91A1D22AE0009D4E3 /* CoreData.framework */,
 				84688E961A11383500FB9E18 /* Foundation.framework */,
 				84688E981A11383500FB9E18 /* CoreGraphics.framework */,
 				84688E9A1A11383500FB9E18 /* UIKit.framework */,
